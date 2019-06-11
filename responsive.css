@@ -1,0 +1,50 @@
+/* for tablets */
+@media all and (max-width: 1000px) {
+  .top-wrapper {
+    text-align:center;
+  }
+  .top-wrapper h1 {
+    font-size:32px;
+  }
+  .service {
+    width:50%;
+    margin-bottom:50px;
+  }
+  .heading h2 {
+    font-size:20px;
+  }
+}
+
+/* for mobiles */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+    text-align:center;
+  }
+  .bars {
+    display:block;
+  }
+  .header-right {
+    display:none;
+  }
+  .top-wrapper h1 {
+    font-size:24px;
+  }
+  .top-wrapper p {
+    font-size:14px;
+  }
+  .btn-wrapper a{
+    width:100%;
+  }
+  .instagram {
+    margin-bottom:10px;
+  }
+  .facebook {
+    margin-bottom:10px;
+  }
+  .service {
+    width:100%;
+  }
+  .contact {
+    width:100%;
+  }
+}
